@@ -1,0 +1,97 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    /*background-image: url("/images/potatoes.jpg");*/
+    background-size: contain;
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    font-family: "Circe Bold";
+}
+
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+main {
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.promotion-holder{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.promotion-entity {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.promotion-entity-info {
+    margin-left: 30px;
+}
+
+.promotion-entity-product {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+.promotion-entity-product-entity {
+    margin-left: 20px;
+    padding: 8px 8px 8px 8px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px -1px 10px -2px rgba(1, 104, 54, 0.2);
+    border-radius: 20px;
+    border: none;
+    background: none;
+    font-family: "Circe Bold";
+}
+
+.promotion-entity-product-entity:hover {
+    box-shadow: 0px -1px 15px -2px rgba(1, 104, 54, 0.2);
+    cursor: pointer;
+}
+
+.promotion-entity-product-entity-photo {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.promotion-entity-product-entity-name {
+    font-size: 110%;
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.promotion-entity-product-entity-price {
+    margin-top: 2px;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
+}
+
+

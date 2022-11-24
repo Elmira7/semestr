@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+html{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Circe Bold";
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
+
+.category-info-block {
+    margin-left: 50px;
+}
+
+.category-info-block a{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+.product-entity {
+    margin-top: 40px;
+    width: 90%;
+    height: auto;
+    display: flex;
+}
+
+.product-entity-photo-block {
+    width: auto;
+    height: auto;
+
+}
+
+.product-entity-photo-holder{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.product-entity-info-block {
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+
+}
+
+.product-entity-form-basket {
+    margin-top: 40px;
+    margin: auto;
+}
+
+.product-entity-button-basket {
+    background: none;
+    border: 1px solid #016836;
+    font-size: 130%;
+    font-family: "Circe Bold";
+    cursor: pointer;
+    padding: 8px 30px 8px 30px;
+    border-radius: 15px;
+}

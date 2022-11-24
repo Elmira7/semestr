@@ -1,0 +1,84 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Circe Bold";
+}
+
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+main {
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.basket-holder {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.basket-entity {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.basket-info-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.basket-info-block-category{
+    font-size: 90%;
+    margin-left: 20px;
+    color: #313131;
+    margin-top: 0px;
+}
+
+.basket-photo-holder {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.basket-remove-button {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/images/delete.png');
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.basket-order {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.basket-order-button {
+    background: none;
+    border: 1px solid #016836;
+    font-size: 130%;
+    font-family: "Circe Bold";
+    cursor: pointer;
+    padding: 8px 30px 8px 30px;
+    border-radius: 15px;
+}

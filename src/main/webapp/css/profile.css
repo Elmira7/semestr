@@ -1,0 +1,91 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Circe Bold";
+}
+
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+main {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.order-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order-holder {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #006735;
+    border-radius: 20px;
+    padding: 10px 10px 0px 20px;
+}
+
+.product-entity {
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.product-entity-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-entity-info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 12px;
+}
+
+.order-status {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.order-entity-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.order-entity-button {
+    width: auto;
+    height: auto;
+    padding: 4px 20px 4px 20px;
+    color: white;
+    background-color: #5fa784;
+    border-radius: 15px;
+    font-family: "Circe Bold";
+    font-size: 130%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
