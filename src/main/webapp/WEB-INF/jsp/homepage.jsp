@@ -66,7 +66,7 @@
                         <button name="product_id" value="${product.getId()}" class="promotion-entity-product-entity">
                             <div class="promotion-entity-product-entity-photo" style="background-image: url('/images/${product.getPathImage()}')"></div>
                             <div class = "promotion-entity-product-entity-name">${product.getName()}</div>
-                            <div class = "promotion-entity-product-entity-price"><s>${product.getPrice()}</s> ${product.getPrice()}</div>
+                            <div class = "promotion-entity-product-entity-price">${product.getPrice()}</div>
                         </button>
                     </form>
                 </c:forEach>
